@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		B3FC90EC2011AE0900D1F18E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FC90EB2011AE0900D1F18E /* AppDelegate.swift */; };
-		B3FC90EE2011AE0900D1F18E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FC90ED2011AE0900D1F18E /* ViewController.swift */; };
 		B3FC90F12011AE0900D1F18E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3FC90EF2011AE0900D1F18E /* Main.storyboard */; };
 		B3FC90F32011AE0900D1F18E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3FC90F22011AE0900D1F18E /* Assets.xcassets */; };
 		B3FC90F62011AE0900D1F18E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3FC90F42011AE0900D1F18E /* LaunchScreen.storyboard */; };
+		B3FC90FF2011AF6D00D1F18E /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FC90FE2011AF6D00D1F18E /* ImageViewController.swift */; };
+		B3FC91012011B98D00D1F18E /* DemoURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FC91002011B98D00D1F18E /* DemoURL.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B3FC90E82011AE0900D1F18E /* Cassini.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cassini.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3FC90EB2011AE0900D1F18E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B3FC90ED2011AE0900D1F18E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B3FC90F02011AE0900D1F18E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B3FC90F22011AE0900D1F18E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B3FC90F52011AE0900D1F18E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B3FC90F72011AE0900D1F18E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3FC90FE2011AF6D00D1F18E /* ImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		B3FC91002011B98D00D1F18E /* DemoURL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoURL.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +56,23 @@
 		B3FC90EA2011AE0900D1F18E /* Cassini */ = {
 			isa = PBXGroup;
 			children = (
-				B3FC90EB2011AE0900D1F18E /* AppDelegate.swift */,
-				B3FC90ED2011AE0900D1F18E /* ViewController.swift */,
+				B3FC90FE2011AF6D00D1F18E /* ImageViewController.swift */,
 				B3FC90EF2011AE0900D1F18E /* Main.storyboard */,
-				B3FC90F22011AE0900D1F18E /* Assets.xcassets */,
-				B3FC90F42011AE0900D1F18E /* LaunchScreen.storyboard */,
+				B3FC91002011B98D00D1F18E /* DemoURL.swift */,
 				B3FC90F72011AE0900D1F18E /* Info.plist */,
+				B3FC90FD2011AE3400D1F18E /* Supporting Files */,
 			);
 			path = Cassini;
+			sourceTree = "<group>";
+		};
+		B3FC90FD2011AE3400D1F18E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B3FC90EB2011AE0900D1F18E /* AppDelegate.swift */,
+				B3FC90F22011AE0900D1F18E /* Assets.xcassets */,
+				B3FC90F42011AE0900D1F18E /* LaunchScreen.storyboard */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +148,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3FC90EE2011AE0900D1F18E /* ViewController.swift in Sources */,
+				B3FC90FF2011AF6D00D1F18E /* ImageViewController.swift in Sources */,
 				B3FC90EC2011AE0900D1F18E /* AppDelegate.swift in Sources */,
+				B3FC91012011B98D00D1F18E /* DemoURL.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

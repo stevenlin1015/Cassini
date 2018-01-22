@@ -13,6 +13,7 @@
 		B3FC90F62011AE0900D1F18E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3FC90F42011AE0900D1F18E /* LaunchScreen.storyboard */; };
 		B3FC90FF2011AF6D00D1F18E /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FC90FE2011AF6D00D1F18E /* ImageViewController.swift */; };
 		B3FC91012011B98D00D1F18E /* DemoURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FC91002011B98D00D1F18E /* DemoURL.swift */; };
+		B3FC91032012F89E00D1F18E /* CassiniViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FC91022012F89E00D1F18E /* CassiniViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		B3FC90F72011AE0900D1F18E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B3FC90FE2011AF6D00D1F18E /* ImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
 		B3FC91002011B98D00D1F18E /* DemoURL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoURL.swift; sourceTree = "<group>"; };
+		B3FC91022012F89E00D1F18E /* CassiniViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CassiniViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				B3FC90FE2011AF6D00D1F18E /* ImageViewController.swift */,
 				B3FC90EF2011AE0900D1F18E /* Main.storyboard */,
+				B3FC91022012F89E00D1F18E /* CassiniViewController.swift */,
 				B3FC91002011B98D00D1F18E /* DemoURL.swift */,
 				B3FC90F72011AE0900D1F18E /* Info.plist */,
 				B3FC90FD2011AE3400D1F18E /* Supporting Files */,
@@ -151,6 +154,7 @@
 				B3FC90FF2011AF6D00D1F18E /* ImageViewController.swift in Sources */,
 				B3FC90EC2011AE0900D1F18E /* AppDelegate.swift in Sources */,
 				B3FC91012011B98D00D1F18E /* DemoURL.swift in Sources */,
+				B3FC91032012F89E00D1F18E /* CassiniViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +283,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = tw.codingonmac.steven.Cassini;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -292,6 +297,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = tw.codingonmac.steven.Cassini;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -314,6 +320,7 @@
 				B3FC90FC2011AE0900D1F18E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
